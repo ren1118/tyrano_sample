@@ -1,46 +1,45 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="たけのこかきのこか"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「たけのこかきのこか」[l][r]
 
-メロスは激怒した。[l][r]
+時は200XX年。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+日本はたけのこ派ときのこ派での分断が進んでいた。[l][r]
 
-(中略)[l][r]
+運命をたけのこかきのこに委ねよ！[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+君はどっちを選ぶ？[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →たけのこ [endlink][r]
+[link target=*tag_run] →きのこ [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=take time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+まだたけのこの残党がおったか。たけのこに未来はない。[l][r]
+粛清してみせようぞ！[r]
 
-【 BAD END 】[l][cm]
+【 GAME OVER 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=kinoko time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+おお！同士よ！[l][r]
+きのこ派と日本の未来を背負って立つ若人よ！主を征夷大将軍に任命する！[l][r]
 
-【 GOOD END 】[l][cm]
+【 SHOGUN END 】[l][cm]
 
 [jump target=*start]
